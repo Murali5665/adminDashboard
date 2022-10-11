@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+
+.admin{
+    color: darkblue;
+    font-size: 30px ;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.right_side{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav_icon{
+    margin-right: 10px;
+    position: relative;
+    color: #555;
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 30px !important;
+}
+
+
+.IconBadge{
+    color: white;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    top: -5px;
+    right: 0px;
+}
+
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
